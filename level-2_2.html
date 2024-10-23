@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./level-2_2.ts" defer></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            place-items: center;
+            flex-direction: column;
+            gap: 20px;
+            min-width: 320px;
+            min-height: 100vh;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 300px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 10px;
+        }
+    </style>
+    <title>Level 2_2</title>
+</head>
+
+<body>
+    <h1>Level-2_2</h1>
+
+    <form onsubmit="return false">
+        <label for="firstName">First Name</label>
+        <input type="firstName" id="firstName">
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone">
+
+        <button type="button">Submit</button>
+    </form>
+
+    <section id="showResults"></section>
+</body>
+
+</html>
